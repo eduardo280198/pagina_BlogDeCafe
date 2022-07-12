@@ -126,3 +126,12 @@ img{
     color: var(--blanco);
 }
 
+/** Contenido Principal **/
+@media (min-width: 768px) {
+
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
