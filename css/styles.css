@@ -39,7 +39,7 @@ body{
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;   
 }
 
 @media (min-width: 768px) {
@@ -179,10 +179,16 @@ img{
 .boton--primario{
     background-color: var(--negro);
 }
+.boton--primario:hover{
+    background-color: var(--primario);
+}
 
 /** Sidebar **/
 .boton--secundario{
     background-color: var(--primario);
+}
+.boton--secundario:hover{
+    background-color: var(--negro);
 }
 
 .cursos{
@@ -255,4 +261,12 @@ img{
 
 .curso:last-of-type{
     border: none;
+}
+
+/** Contacto **/
+.contacto-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
